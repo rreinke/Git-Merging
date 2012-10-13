@@ -16,6 +16,9 @@ public class HelloWorld {
 		
 		FallBreak fallBreak2 = new FallBreak();
 		System.out.println(fallBreak2.toString());
+		
+		WinterBreak winterBreak = new WinterBreak();
+		System.out.println(winterBreak.toString());
 	}
 
 }
