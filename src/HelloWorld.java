@@ -1,3 +1,5 @@
+import java.sql.Date;
+
 
 public class HelloWorld {
 	
@@ -5,6 +7,10 @@ public class HelloWorld {
 		// TODO Auto-generated constructor stub
 	}
 
+	public static long calcDaysOff(long today, long endOfBreak) {
+		return (endOfBreak - today);
+	}
+	
 	/**
 	 * @param args
 	 */
@@ -19,6 +25,8 @@ public class HelloWorld {
 		
 		WinterBreak winterBreak = new WinterBreak();
 		System.out.println(winterBreak.toString());
+
+		System.out.println(calcDaysOff(20121013, 20121017));
 	}
 
 }
