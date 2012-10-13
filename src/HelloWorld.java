@@ -1,6 +1,6 @@
 
 public class HelloWorld {
-
+	
 	public HelloWorld() {
 		// TODO Auto-generated constructor stub
 	}
@@ -14,6 +14,8 @@ public class HelloWorld {
 		//System.out.println("Hello World!");
 		System.out.println(fallBreak);
 		
+		FallBreak fallBreak2 = new FallBreak();
+		System.out.println(fallBreak2.toString());
 	}
 
 }
